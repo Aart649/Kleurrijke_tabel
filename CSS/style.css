@@ -1,66 +1,110 @@
 /* Algemene opmaak */
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header en footer */
+<!-- Header en footer */
 header {
-background-color: #4CAF50;
-color: white;
-text-align: center;
-padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 footer {
-background-color: #333;
-color: white;
-text-align: center;
-padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 /* Tabelopmaak */
 table {
-width: 80%;
-margin: 20px auto;
-border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
 }
 
 td {
-width: 25%;
-height: 100px;
-text-align: center;
-vertical-align: middle;
-border: 1px solid #ccc;
-font-size: 1.5em;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    font-size: 1.5em;
 }
 
 /* Verschillende kleuren per cel */
-#cel1 { background-color: #FFB6C1; }
-#cel2 { background-color: #FFD700; }
-#cel3 { background-color: #ADFF2F; }
-#cel4 { background-color: #87CEEB; }
+#cel1 {
+    background-color: #FFB6C1;
+}
 
-#cel5 { background-color: #FF7F50; }
-#cel6 { background-color: #DDA0DD; }
-#cel7 { background-color: #00FA9A; }
-#cel8 { background-color: #F0E68C; }
+#cel2 {
+    background-color: #FFD700;
+}
 
-#cel9 { background-color: #B0E0E6; }
-#cel10 { background-color: #FF69B4; }
-#cel11 { background-color: #98FB98; }
-#cel12 { background-color: #FFA500; }
+#cel3 {
+    background-color: #ADFF2F;
+}
 
-#cel13 { background-color: #E6E6FA; }
-#cel14 { background-color: #B0C4DE; }
-#cel15 { background-color: #F5DEB3; }
-#cel16 { background-color: #20B2AA; }
+#cel4 {
+    background-color: #87CEEB;
+}
+
+#cel5 {
+    background-color: #FF7F50;
+}
+
+#cel6 {
+    background-color: #DDA0DD;
+}
+
+#cel7 {
+    background-color: #00FA9A;
+}
+
+#cel8 {
+    background-color: #F0E68C;
+}
+
+#cel9 {
+    background-color: #B0E0E6;
+}
+
+#cel10 {
+    background-color: #FF69B4;
+}
+
+#cel11 {
+    background-color: #98FB98;
+}
+
+#cel12 {
+    background-color: #FFA500;
+}
+
+#cel13 {
+    background-color: #E6E6FA;
+}
+
+#cel14 {
+    background-color: #B0C4DE;
+}
+
+#cel15 {
+    background-color: #F5DEB3;
+}
+
+#cel16 {
+    background-color: #20B2AA;
+}
 
 /* Afbeeldingen netjes passend */
 img {
-max-width: 100%;
-height: auto;
-display: block;
-margin: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
